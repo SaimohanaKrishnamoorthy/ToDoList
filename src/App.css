@@ -1,0 +1,70 @@
+/* .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+} */
+body {
+  background-image: url('background.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 70px;
+}
+
+
+.todo-container {
+  background: #9d87d80e;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  height: 200px;
+  margin: 30px auto 0 auto;
+  box-shadow: 0 4px 8px rgba(67, 61, 61, 0.1);
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ab95eb;
+  border-radius: 5px;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #5c199c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #40086e;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(255, 251, 251);
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+li button {
+  background-color: #5c199c;
+}
